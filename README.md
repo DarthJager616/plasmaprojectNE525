@@ -30,7 +30,7 @@ FEATURES
   Dwell time   = 23 minutes
 
 - Uses neutron flux:
-  2.38 × 10^14 n/cm²/s
+  1 × 10^14 n/cm²/s
 
 - Calculates:
   - Maximum neutron energy transfer
@@ -70,7 +70,7 @@ Ed = displacement threshold energy
 
 An empirical correction factor is then applied:
 
-kappa = 0.3
+kappa = 0.33
 
 4. Displacements Per Atom (DPA)
 
