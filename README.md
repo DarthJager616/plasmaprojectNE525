@@ -121,13 +121,9 @@ EXPECTED RESULTS
 REQUIREMENTS
 --------------------------------------------------
 
-pip install numpy matplotlib
-
---------------------------------------------------
-RUN
---------------------------------------------------
-
-python iter_damage_model.py
+pip install numpy
+pip install matplotlib
+Note: Make sure that python is installed on your computer
 
 --------------------------------------------------
 POSSIBLE FUTURE IMPROVEMENTS
@@ -139,6 +135,7 @@ POSSIBLE FUTURE IMPROVEMENTS
 - Helium / hydrogen transmutation effects
 - Thermal stress coupling
 - OpenMC or MCNP neutron transport data
+- Reducing computation times
 
 --------------------------------------------------
 DISCLAIMER
