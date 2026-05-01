@@ -47,8 +47,8 @@ PHYSICS MODEL
 
 Neutron flux is applied only during plasma burn time:
 
-phi(t) = phi0 during pulse
-phi(t) = 0 during dwell
+Φ(t) = Φ_0
+Φ(t) = 0 during dwell
 
 2. Maximum Elastic Energy Transfer
 
@@ -68,7 +68,7 @@ Where:
 
 Ed = displacement threshold energy
 
-An empirical correction factor is then applied:
+An empirical correction factor is then applied to account for defect recombination at high temperatures:
 
 kappa = 0.33
 
@@ -142,6 +142,7 @@ DISCLAIMER
 --------------------------------------------------
 
 This model is a simplified engineering estimate and should not replace validated reactor materials simulations.
+This program is only for short time scales. Longer time scales will take significantly longer times to generate data.
 
 --------------------------------------------------
 AUTHOR
