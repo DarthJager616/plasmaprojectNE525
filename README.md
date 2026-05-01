@@ -92,10 +92,10 @@ Threshold Energy = 25 eV
 SIMULATION PARAMETERS
 --------------------------------------------------
 
-Total runtime     = 4 hours
-Time step         = 1 second
-Surface area      = 1 cm^2
-Thickness         = 2 cm
+Total runtime     = 4 hours,
+Time step         = 1 second,
+Surface area      = 1 cm^2,
+Thickness         = 2 cm,
 Neutron energy    = 14.1 MeV
 
 --------------------------------------------------
